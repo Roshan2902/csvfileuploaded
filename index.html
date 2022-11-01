@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Rank Details Uploads</title>
+
+    <!-- ==font== -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <style type="text/css">
+    body{
+        background-color: aqua;
+    }
+  </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <hr>
+        <p><strong><h1>Upload File</h1></strong></p>
+
+        <p><h3>You can upload your csv file only. </h3></p>
+
+        <div class="container color text-cente my-5">
+            <form action="insert.php" method="post" enctype="multipart/form-data">
+                <label for="">Choose File &nbsp </label>
+                <input type="file" name="file" required>
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <hr>
+    <!-- <button type="button" name="search-button" class="btn btn-light"><a href="display.php">click to chek</a></button> -->
+
+    </div>
+    
+</body>
+</html>
+
+
+
